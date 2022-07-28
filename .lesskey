@@ -1,0 +1,8 @@
+#line-edit
+^W word-backspace
+\e[1;5C word-right
+\e[1;5D word-left
+\e[5C word-right
+\e[5D word-left
+\e\033[C word-right
+\e\033[D word-left
